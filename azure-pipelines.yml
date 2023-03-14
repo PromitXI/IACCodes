@@ -3,6 +3,8 @@ trigger:
 
 name: Deploy Bicep files
 
+system.debug: true
+
 variables:
   - group: Bicep Deployment Variables
 
