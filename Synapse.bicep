@@ -14,8 +14,8 @@ param subnet2ID string
 param VnetId string
 
 
-var synapsename=toLower('syn-edm-${envoirnment}-${location}')
-var datalakename =toLower('pwbedm${envoirnment}007')
+var synapsename=toLower('syn-edm1-${envoirnment}-${location}')
+var datalakename =toLower('pwbed1m${envoirnment}007')
 var blobname =toLower('filesys${envoirnment}')
 
 

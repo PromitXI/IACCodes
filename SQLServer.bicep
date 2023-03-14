@@ -31,8 +31,8 @@ param VnetId string='VnetId'
 
 
 //Variables for SQl SERVEr & Storage Accounts
-var sqlServerName = 'dm-edm-${location}-${envoirnment}'
-var sqlDatabaseName = 'sql_edm_${location}_${envoirnment}'
+var sqlServerName = 'dm-edm1-${location}-${envoirnment}'
+var sqlDatabaseName = 'sql_edm1_${location}_${envoirnment}'
 
 
 
